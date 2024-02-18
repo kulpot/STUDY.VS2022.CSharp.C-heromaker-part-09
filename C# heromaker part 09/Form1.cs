@@ -51,7 +51,7 @@ using System.Windows.Forms;
 //------------- C# heromaker part 09 Picturebox control Visual Studio -------------------------------
 //ref link:https://www.youtube.com/watch?v=inK--sPEgws&list=PLhPyEFL5u-i2w2fa7ErcbkbEkjqLh7Io1&index=7
 
-// groupBox(portrait), pictureBox, 
+// groupBox(portrait), pictureBox(sizeMode:Zoom), 
 
 namespace HeroMaker
 {
