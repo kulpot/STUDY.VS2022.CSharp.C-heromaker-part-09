@@ -48,6 +48,11 @@ using System.Windows.Forms;
 
 // label(Dark Side Propensity),label(0/lbl_dark_side), trackBar(minimum:-10/largeChange:3), 
 
+//------------- C# heromaker part 09 Picturebox control Visual Studio -------------------------------
+//ref link:https://www.youtube.com/watch?v=inK--sPEgws&list=PLhPyEFL5u-i2w2fa7ErcbkbEkjqLh7Io1&index=7
+
+// groupBox(portrait), 
+
 namespace HeroMaker
 {
     public partial class Form1 : Form

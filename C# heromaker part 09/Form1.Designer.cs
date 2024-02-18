@@ -71,6 +71,7 @@
             this.pic_cape_color = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.lbl_dark_side = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -510,11 +511,21 @@
             this.lbl_dark_side.TabIndex = 17;
             this.lbl_dark_side.Text = "0";
             // 
+            // groupBox5
+            // 
+            this.groupBox5.Location = new System.Drawing.Point(381, 310);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(200, 100);
+            this.groupBox5.TabIndex = 18;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Portrait";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.lbl_dark_side);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.pic_cape_color);
@@ -594,6 +605,7 @@
         private System.Windows.Forms.PictureBox pic_cape_color;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label lbl_dark_side;
+        private System.Windows.Forms.GroupBox groupBox5;
     }
 }
 
