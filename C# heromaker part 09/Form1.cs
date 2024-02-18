@@ -57,6 +57,11 @@ namespace HeroMaker
 {
     public partial class Form1 : Form
     {
+        //----START------- C# heromaker part 09 Picturebox control Visual Studio -------------------------------
+        // picture of hero
+        string picture_of_hero = "";
+        //----END------- C# heromaker part 09 Picturebox control Visual Studio -------------------------------
+
         public Form1()
         {
             InitializeComponent();
@@ -244,6 +249,8 @@ namespace HeroMaker
             if(portraitPicker.ShowDialog() == DialogResult.OK)
             {
                 pictureBox1.Image = new Bitmap(portraitPicker.FileName);
+
+                picture_of_hero = portraitPicker.FileName;
             }
         }
         //-----END------ C# heromaker part 09 Picturebox control Visual Studio -------------------------------
