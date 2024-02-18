@@ -239,7 +239,12 @@ namespace HeroMaker
         //----START------- C# heromaker part 09 Picturebox control Visual Studio -------------------------------
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
+            OpenFileDialog portraitPicker = new OpenFileDialog();
 
+            if(portraitPicker.ShowDialog() == DialogResult.OK)
+            {
+                pictureBox1.Image = new Bitmap(portraitPicker.FileName);
+            }
         }
         //-----END------ C# heromaker part 09 Picturebox control Visual Studio -------------------------------
 
