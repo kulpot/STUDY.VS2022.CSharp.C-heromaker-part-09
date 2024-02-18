@@ -199,6 +199,10 @@ namespace HeroMaker
             status_message += "\nThe dark side probability for your hero is " + dark_side;
             //-----END------ C# avatar maker app 08 How to use the trackbar control -------------------------------------------
 
+            //----START------- C# heromaker part 09 Picturebox control Visual Studio -------------------------------
+            status_message
+            //----END------- C# heromaker part 09 Picturebox control Visual Studio -------------------------------
+
             //------START---------- C# avatar maker app 01 How to use checkboxes tutorial -----------------------------
             MessageBox.Show(status_message);
             //------END---------- C# avatar maker app 01 How to use checkboxes tutorial -----------------------------
