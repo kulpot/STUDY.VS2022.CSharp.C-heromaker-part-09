@@ -200,7 +200,7 @@ namespace HeroMaker
             //-----END------ C# avatar maker app 08 How to use the trackbar control -------------------------------------------
 
             //----START------- C# heromaker part 09 Picturebox control Visual Studio -------------------------------
-            status_message
+            status_message += " \n The picture of the heros is: " + picture_of_hero;
             //----END------- C# heromaker part 09 Picturebox control Visual Studio -------------------------------
 
             //------START---------- C# avatar maker app 01 How to use checkboxes tutorial -----------------------------
