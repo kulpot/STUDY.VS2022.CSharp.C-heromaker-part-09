@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace C__heromaker_part_09
+namespace HeroMaker
 {
     internal static class Program
     {
