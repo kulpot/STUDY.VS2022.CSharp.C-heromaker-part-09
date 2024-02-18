@@ -51,7 +51,7 @@ using System.Windows.Forms;
 //------------- C# heromaker part 09 Picturebox control Visual Studio -------------------------------
 //ref link:https://www.youtube.com/watch?v=inK--sPEgws&list=PLhPyEFL5u-i2w2fa7ErcbkbEkjqLh7Io1&index=7
 
-// groupBox(portrait), 
+// groupBox(portrait), pictureBox, 
 
 namespace HeroMaker
 {
@@ -236,6 +236,12 @@ namespace HeroMaker
         }
         //-----END------ C# avatar maker app 08 How to use the trackbar control -------------------------------------------
 
+        //----START------- C# heromaker part 09 Picturebox control Visual Studio -------------------------------
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+        //-----END------ C# heromaker part 09 Picturebox control Visual Studio -------------------------------
 
 
         //------END---------- C# avatar maker app 01 How to use checkboxes tutorial -----------------------------
